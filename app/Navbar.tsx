@@ -11,7 +11,6 @@ interface links{
 }
 
 const Navbar = () => {
-
     const currentPath = usePathname();
     const Links: links[] =[
         {href:"/dashboard",label: "Dashboard"},
