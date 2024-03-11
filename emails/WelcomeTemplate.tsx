@@ -6,7 +6,7 @@ const WelcomeTemplate = ({name}: {name:string}) => {
   return (
     <Html>
         <Preview>Welcome aboard!</Preview>
-        <Tailwind className='bg-white'>
+        <Tailwind >
             <Body style={body}>
                 <Container>
                     <Text style={heading}>Hello {name}</Text>
@@ -23,7 +23,7 @@ const body: CSSProperties = {
 }
 
 const heading: CSSProperties ={
-    fontSize: 32px
+    fontSize: '32px'
 }
 
 export default WelcomeTemplate
